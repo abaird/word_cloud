@@ -52,6 +52,7 @@
  - internet
  - WatirSpec
 30:
+ - regular expression
  - popup
  - unit tests
  - functional tests
@@ -64,14 +65,15 @@
  - atdd
  - load
 25:
- - WatirMelon
 20:
+ - WatirMelon
+ - IT Really Matters
+ - Željko Filipin’s Blog
  - test_code.should be readable
 15:
 10:
  - browser.button(:text => "Run Tests").click
  - /b(AT|B|T)(DD)/b
- - regular expression
  - /bReg(Ex|ular Expression)/b
  - flash_is_evil
  - chown -R us /.base
