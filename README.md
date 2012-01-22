@@ -17,16 +17,15 @@ I would have just pointed some tool at some mailing list and had a tool do all t
 isn't one of these out there that I could find ... at least in 10 minutes of searching.
 
 Wordle is a pretty cool site, and I found that I could generate the list I was wanting by feeding it a ":"
-separated file.  After fiddling I found that I could use a YAML file to tweak the weights of the words easier.
-So, what you have is an afternoon of fiddling that resulted in a super-nerdy way to generate these.
+separated file.  After fiddling I found that I could use a YAML file to make tweaking the weights of the words easier.
+So, what you have is an afternoon of fiddling that resulted in a super-nerdy way to generate word clouds.
 
 For the [Test Automation Bazaar](http://watir.com/category/test-automation-bazaar/)
 -----------------------------------------------------------------------------------
 
 If you are coming here because you saw this on the mailing list, great!  Please add some more words to: `\lib\word_cloud\data.yaml`
-that you feel represent test automation, specifically the community that will be at the conference.  Either
-the entire codebase or just the yaml file can be shared so I can send the final image to the T-Shirt
-manufacturer.
+that you feel represent test automation, specifically the community that will be at the conference.  This will make
+collaborating on a design easier for me as I can just get a YAML file or have somebody `git push` their changes to me.
 
 Please leave the value of "Test Automation Baazar" set to 100 and don't use weights greater than 80.  That
 way the conference name is displayed prominently.  Also, I thought it would be cool to hide some geek jokes
@@ -44,11 +43,8 @@ Here are my favorite 3 so far:
 
 
 ### Contributing to word_cloud
- 
-* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
-* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
+
 * Fork the project
-* Start a feature/bugfix branch
 * Commit and push until you are happy with your contribution
 * Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
 * Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
