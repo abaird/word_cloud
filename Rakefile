@@ -51,6 +51,10 @@ Rake::RDocTask.new do |rdoc|
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
 
-task :generate_wordle do
+require 'lib/word_cloud'
 
+desc "Generate Wordle word cloud"
+task :generate_wordle do
+  wb = WordleBrowser.new(WordCloudinator.new("data.yaml"))
+  wb.dump_to_wordle
 end

@@ -2,7 +2,7 @@ require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
 describe "WordCloud" do
   before(:all) do
-    @wc = WordCloudinator.new("test_data.csv")
+    @wc = WordCloudinator.new("test_data.yaml")
     @good_result = <<-TEXT
 bananas:3
 oranges:2

@@ -1,0 +1,77 @@
+---
+100:
+ - Test Automation Baazar
+95:
+90:
+85:
+80:
+ - Watir
+ - Watir-Webdriver
+ - Ruby
+75:
+70:
+65:
+60:
+ - Cucumber
+ - RSpec
+55:
+ - Test::Unit
+ - Git
+ - GitHub
+50:
+ - taza
+ - page objects
+ - specification by example
+ - selenium
+45:
+ - StackOverflow
+ - test automation
+40:
+ - FireWatir
+ - browser
+ - IE
+ - Firefox
+ - Chrome
+ - watirmark
+ - Opera
+ - WatirGrid
+ - WatirSplash
+ - Sikuli
+ - AWTA
+ - Bundler
+ - Hudson/Jenkins
+35:
+ - web
+ - html5
+ - DOM
+ - http
+ - html
+ - web2.0
+ - css
+ - useability
+ - internet
+ - WatirSpec
+30:
+ - popup
+ - unit tests
+ - functional tests
+ - security
+ - performance
+ - irb
+ - javascript
+ - tdd
+ - bdd
+ - atdd
+ - load
+25:
+ - WatirMelon
+20:
+ - test_code.should be readable
+15:
+10:
+ - browser.button(:text => "Run Tests").click
+ - /b(AT|B|T)(DD)/b
+ - regular expression
+ - /bReg(Ex|ular Expression)/b
+ - flash_is_evil
+ - chown -R us /.base

@@ -1,17 +1,19 @@
 class WordCloudinator
   attr_reader :color
 
-  def initialize(file="data.csv", color=:random)
-    @words = words_to_hash(FasterCSV.read(File.join(File.dirname(__FILE__), file)))
+  def initialize(file="data.yaml", color=:random)
+    @words = words_to_hash(YAML::load_file(File.join(File.dirname(__FILE__), file)))
     @color = color
   end
 
   def words_to_hash(data)
-    words = {}
-    data.each do |row|
-      words[row[0]] = row[1].to_i
+    return_hash = {}
+    weights = data.keys
+    weights.each do |weight|
+      words = data[weight]
+      words.each{|word| return_hash[word] = weight.to_i } if words
     end
-    words
+    return_hash
   end
 
   def generate_text
