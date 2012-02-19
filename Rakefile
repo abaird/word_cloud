@@ -46,6 +46,7 @@ end
 
 desc "Generate Wordle word cloud with colors"
 task :generate_wordle_with_colors do
-  wb = WordleBrowser.new(WordCloudinator.new("data_with_colors.yaml"))
+  #wb = WordleBrowser.new(WordCloudinator.new("data_with_colors.yaml"))
+  wb = WordleBrowser.new(WordCloudinator.new("data_with_colors_not_so_small.yaml"))
   wb.dump_to_wordle
 end
