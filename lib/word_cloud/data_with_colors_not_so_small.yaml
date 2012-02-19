@@ -1,0 +1,230 @@
+---
+100:
+ -
+   name: Test Automation Bazaar
+   color: "F2F2F2"
+95:
+90:
+85:
+80:
+ -
+   name: Watir
+   color: "F2F2F2"
+ -
+   name: Ruby
+   color: "780606"
+75:
+70:
+ -
+   name: Watir-Webdriver
+   color: none
+65:
+60:
+ -
+   name: Cucumber
+   color: none
+ -
+   name: RSpec
+   color: none
+55:
+ -
+   name: Test::Unit
+   color: none
+ -
+   name: Git
+   color: none
+ -
+   name: GitHub
+   color: none
+50:
+ -
+   name: taza
+   color: none
+ -
+   name: page objects
+   color: none
+ -
+   name: specification by example
+   color: none
+ -
+   name: selenium
+   color: "033155"
+45:
+ -
+   name: StackOverflow
+   color: none
+ -
+   name: test automation
+   color: none
+40:
+ -
+   name: FireWatir
+   color: "033155"
+ -
+   name: browser
+   color: none
+ -
+   name: IE
+   color: none
+ -
+   name: Firefox
+   color: none
+ -
+   name: Chrome
+   color: none
+ -
+   name: Watirmark
+   color: none
+ -
+   name: Opera
+   color: none
+ -
+   name: WatirGrid
+   color: none
+ -
+   name: WatirSplash
+   color: none
+ -
+   name: Sikuli
+   color: none
+ -
+   name: AWTA
+   color: none
+ -
+   name: Bundler
+   color: none
+ -
+   name: Hudson
+   color: none
+ -
+   name: Jenkins
+   color: none
+ -
+   name: RAutomation
+   color: none
+ -
+   name: Travis CI
+   color: none
+35:
+ -
+   name: web
+   color: none
+ -
+   name: HTML5
+   color: none
+ -
+   name: DOM
+   color: none
+ -
+   name: http
+   color: none
+ -
+   name: HTML
+   color: none
+ -
+   name: web2.0
+   color: none
+ -
+   name: css
+   color: none
+ -
+   name: useability
+   color: none
+ -
+   name: internet
+   color: none
+ -
+   name: WatirSpec
+   color: none
+ -
+   name: API
+   color: none
+ -
+   name: XML
+   color: none
+ -
+   name: JSON
+   color: none
+ -
+   name: REST
+   color: none
+ -
+   name: Database
+   color: none
+ -
+   name: Ajax
+   color: none
+ -
+   name: jquery
+   color: none
+ -
+   name: i18n
+   color: none
+30:
+ -
+   name: regular expression
+   color: none
+ -
+   name: popup
+   color: none
+ -
+   name: unit tests
+   color: none
+ -
+   name: functional tests
+   color: none
+ -
+   name: security
+   color: none
+ -
+   name: performance
+   color: none
+ -
+   name: irb
+   color: none
+ -
+   name: javascript
+   color: none
+ -
+   name: tdd
+   color: none
+ -
+   name: bdd
+   color: none
+ -
+   name: atdd
+   color: none
+ -
+   name: load
+   color: none
+25:
+ -
+   name: WatirMelon
+   color: none
+ -
+   name: IT Really Matters
+   color: none
+ -
+   name: Željko Filipin’s Blog
+   color: none
+ -
+   name: test_code.should be_readable
+   color: none
+ -
+   name: browser.button(:text => "Run Tests").click
+   color: none
+ -
+   name: \b(AT|B|T)(DD)\b
+   color: none
+ -
+   name: \bReg(Ex|ular Expression)\b
+   color: none
+ -
+   name: flash_is_evil
+   color: none
+ -
+   name: chown -R us /.base
+   color: none
+20:
+15:
+10:
